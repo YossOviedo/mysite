@@ -1,0 +1,26 @@
+{
+  "name": "lk",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "node_modules/.bin/node-sass styles.scss styles.css",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YossOviedo/mysite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YossOviedo/mysite/issues"
+  },
+  "homepage": "https://github.com/YossOviedo/mysite#readme"
+}

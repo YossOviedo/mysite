@@ -1,0 +1,44 @@
+.layout-max {
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.heading {
+  float: left;
+}
+
+.nav__container {
+  background-color: lightblue;
+  display: inline-block;
+  padding: 1rem;
+  float: right;
+  border-radius: 10px;
+
+  a {
+    margin: .5rem;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav__container a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: lightblue;
+  width: 100%;
+  margin-top: 1rem;
+
+  a {
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
